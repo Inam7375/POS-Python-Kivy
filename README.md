@@ -7,9 +7,9 @@ Point Of Sale Software Using Python and Kivy Framework
 
 2. Run following Commands on Anaconda CMD
 
- ##pip install pymongo
- ##pip install kivy
- ##pip3 install pymongo[srv]
+a. pip install pymongo
+b. pip install kivy
+c. pip3 install pymongo[srv]
 
 3. Navigate to file directory using anaconda CMD and run following command
-  #python main.py
+a. python main.py
