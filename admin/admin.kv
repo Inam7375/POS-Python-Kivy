@@ -26,22 +26,13 @@
         
         FlatButton:
             id: file_trigger
-            text: 'File'
-            on_release: file_dropdown.open(self)
+            text: 'logout'
+            on_release: root.logout()
             size_hint: (.1, None)
             height: 30
+            underline: True
 
-            Widget:
-                on_parent: file_dropdown.dismiss()
-
-                DropDown:
-                    id: file_dropdown
-                    Button:
-                        id: logout
-                        text: 'logout'
-                        size_hint_y: None
-                        height: 30
-                        on_release: root.logout()
+           
                     
                         
 
